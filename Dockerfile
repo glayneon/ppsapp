@@ -5,4 +5,4 @@ RUN apk add --no-cache curl bind-tools bash iperf3
 RUN mkdir /root/pps
 COPY scripts/pps.sh /root/pps
 WORKDIR /root/pps
-CMD ["/bin/bash", "-c", "sleep 10800"]
+CMD ["/bin/bash", "-c", "sleep 10700"]
